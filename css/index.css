@@ -47,6 +47,10 @@ li {
     height: inherit;
 }
 
+.hero {
+    background-color: #292929;
+}
+
 
 .information {
     background: #292929;
