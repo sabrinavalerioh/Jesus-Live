@@ -51,8 +51,9 @@ li {
     background-color: #292929;
 }
 
-
 .information {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
     background: #292929;
     color: white;
     text-decoration: none;
@@ -72,11 +73,19 @@ li {
     margin-top: 50;
 }
 
+.information-list {
+    padding: 50;
+    margin-top: 50;
+}
+
 .footer {
     background-color: black;
     color: white;
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
 }
+
+@media 
+
 
