@@ -86,6 +86,16 @@ li {
     justify-content: center;
 }
 
-@media 
+@media screen and (max-width: 768px) {
 
+.logo {
+    padding-left: 0%;
+}
 
+.menu {
+    padding-right: 0%;
+}
+
+.hero-image {
+    width: 100%;
+}
