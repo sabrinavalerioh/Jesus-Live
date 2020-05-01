@@ -88,14 +88,34 @@ li {
 
 @media screen and (max-width: 768px) {
 
-.logo {
-    padding-left: 0%;
+    .logo {
+       padding-left: 0%;
+       width: 100%;
+    }
+   
+    .menu {
+       padding-right: 0%;
+       width: 100%;
+    }
+   
+    .hero-image {
+       width: 100%;
+    }
 }
 
-.menu {
-    padding-right: 0%;
-}
+@media screen (max-width: 1024px) {
 
-.hero-image {
-    width: 100%;
+    .logo {
+        padding-left: 0%;
+        width: 100%;
+    }
+    
+    .menu {
+        padding-right: 0%;
+        width: 100%;
+    }
+    .hero-image {
+        width: 100%;
+        
+     }
 }
