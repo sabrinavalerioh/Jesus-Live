@@ -85,50 +85,23 @@ li {
     /*align-items: center;*/
     justify-content: center;
 }
-
-@media screen and (max-width:320px) {
-
+@media screen and (max-width: 320px) {
     .header {
         display: block;
         height: auto;
+    }
+    .header ol li {
+        padding-left: 0;
     }
     .logo {
-        margin-top: 0;
-        padding-top: 20px;
-        padding-left: 90px;
+        margin: 0;
+        padding: 0 0;
     }
     .menu {
-        height: 80px;
         padding: 0;
-        margin-right: 10px;
+        width: 50%;
+        padding-left: 0;
     }
-    .hero-image {
-        height: auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-     }
-
-    .information {
-        height: auto;
-    }
-
- }
- @media screen and (max-width: 425px) {
-    .header {
-        display: block;
-        height: auto;
-    }
-   .logo {
-       margin-top: 0;
-       padding-top: 20px;
-       padding-left: 90px;
-   } 
-   .menu {
-       height: 80px;
-       padding-left: 90px;
-   }
 
  }
 
@@ -172,6 +145,9 @@ li {
 
     .hero-image {
        width: 100%; 
+    }
+    .information {
+        padding: 100px;
     }
 }
 
