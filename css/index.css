@@ -86,8 +86,76 @@ li {
     justify-content: center;
 }
 
+@media screen and (max-width:320px) {
+
+    .header {
+        display: block;
+        height: auto;
+    }
+    .logo {
+        margin-top: 0;
+        padding-top: 20px;
+        padding-left: 90px;
+    }
+    .menu {
+        height: 80px;
+        padding: 0;
+        margin-right: 10px;
+    }
+    .hero-image {
+        height: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+     }
+
+    .information {
+        height: auto;
+    }
+
+ }
+ @media screen and (max-width: 425px) {
+    .header {
+        display: block;
+        height: auto;
+    }
+   .logo {
+       margin-top: 0;
+       padding-top: 20px;
+       padding-left: 90px;
+   } 
+   .menu {
+       height: 80px;
+       padding-left: 90px;
+   }
+
+ }
+
+ @media screen and (max-width: 480px) {
+     .header {
+         display: block;
+         height: auto;
+     }
+    .logo {
+        display: inherit;
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 100px;
+    } 
+    .menu {
+        height: 90px;
+        padding-left: 100px;
+    }
+ 
+ }
+
 @media screen and (max-width: 768px) {
 
+
+    .header {
+        width: 100%;
+    }
     .logo {
        padding-left: 0%;
        width: 100%;
@@ -95,16 +163,24 @@ li {
    
     .menu {
        padding-right: 0%;
-       width: 100%;
+       
     }
-   
+    
+    .hero {
+        height: auto;
+    }
+
     .hero-image {
-       width: 100%;
+       width: 100%; 
     }
 }
 
-@media screen (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
+    .header {
+        width: 100%;
+    }
+    
     .logo {
         padding-left: 0%;
         width: 100%;
@@ -114,8 +190,9 @@ li {
         padding-right: 0%;
         width: 100%;
     }
+
     .hero-image {
+        height: auto;
         width: 100%;
-        
      }
 }
