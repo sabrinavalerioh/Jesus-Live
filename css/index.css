@@ -172,3 +172,9 @@ li {
         width: 100%;
      }
 }
+@media screen and (max-width: 1440px) {
+    .hero-image {
+        height: auto;
+        width: 100%;
+    }
+}
